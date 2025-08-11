@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai Music Search Bot ▶️ Panel - Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header>
+            <h1>Ai Music Search Bot ▶️ Panel Dashboard</h1>
+            <a href="{{ url_for('logout') }}" class="logout-btn">Logout</a>
+        </header>
+        <main>
+            <h2>Welcome, {{ username }} 👋</h2>
+            <p>This is where you'll add the controls to manage your **Ai Music Search Bot ▶️**.</p>
+            <p>You can add forms to send messages, view logs, or change settings here.</p>
+            <div class="bot-management">
+                <h3>Bot Controls</h3>
+                <button onclick="alert('Functionality to be added!')">Restart Bot</button>
+                <button onclick="alert('Functionality to be added!')">Send Global Message</button>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
